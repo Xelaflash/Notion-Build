@@ -3,17 +3,15 @@
   "name": "NotionBuild",
   "version": "0.0.1",
   "description": "An extension that injects a button in Notion.so to Trigger Netlify - Vercel Build hook",
-  "permissions": [
-    "storage"
-  ],
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": [
-        "https://www.notion.so/*"
+        "https://alexgwebdev.notion.site/416dc261a2dd4e77926adb1b7105f2d7?v=fabf46e38eec4edca25a48cea9b41953",
+        "https://alexgwebdev.notion.site/1751e89d5b3a411a950457eb33bf7e1a?v=268e7c1b512149fead6b71a860e50b77",
+        "https://alexgwebdev.notion.site/ccd78484faf74078a6cba18f37880225?v=8862b6eb87384c3eb8b5b41a676120ce"
       ],
-      "js": [
-        "src/inject.js"
-      ]
+      "js": ["src/inject.js"]
     }
   ],
   "icons": {
